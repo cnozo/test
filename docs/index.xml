@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>cc_test</title>
+    <link>https://cnozo.github.io/test/</link>
+    <description>Recent content on cc_test</description>
+    <image>
+      <url>https://cnozo.github.io/test/lily_icon1.png</url>
+      <link>https://cnozo.github.io/test/lily_icon1.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 01 Jan 1970 09:00:04 +0900</lastBuildDate><atom:link href="https://cnozo.github.io/test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ごきげんよう</title>
+      <link>https://cnozo.github.io/test/posts/</link>
+      <pubDate>Thu, 01 Jan 1970 09:00:04 +0900</pubDate>
+      
+      <guid>https://cnozo.github.io/test/posts/</guid>
+      <description>ごきげんよう、しーしーです。 テストページです。</description>
+    </item>
+    
+    <item>
+      <title>test3</title>
+      <link>https://cnozo.github.io/test/333/</link>
+      <pubDate>Thu, 01 Jan 1970 09:00:03 +0900</pubDate>
+      
+      <guid>https://cnozo.github.io/test/333/</guid>
+      <description>htmlとMarkdownどっちを覚えるべきなのか。 markdownはリサイズできない？ と思ったらアーカイブの順がおかしいわね</description>
+    </item>
+    
+    <item>
+      <title>Test1</title>
+      <link>https://cnozo.github.io/test/page/test1/</link>
+      <pubDate>Thu, 01 Jan 1970 09:00:02 +0900</pubDate>
+      
+      <guid>https://cnozo.github.io/test/page/test1/</guid>
+      <description>テストです</description>
+    </item>
+    
+    <item>
+      <title>test2</title>
+      <link>https://cnozo.github.io/test/t2/</link>
+      <pubDate>Thu, 01 Jan 1970 09:00:01 +0900</pubDate>
+      
+      <guid>https://cnozo.github.io/test/t2/</guid>
+      <description>しーしーです。今日はミリオン3rd幕張Day1を見ました。
+円盤はこちらから！ </description>
+    </item>
+    
+    
+  </channel>
+</rss>

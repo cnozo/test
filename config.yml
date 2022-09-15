@@ -1,0 +1,132 @@
+baseURL: "https://cnozo.github.io/test"
+canonifyurls: false
+publishDir: "docs"
+title: cc_test
+paginate: 5
+theme: PaperMod
+
+enableEmoji: true
+enableRobotsTXT: true
+
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  #    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: CCのHP
+  description: "Blog of cc."
+  keywords: [Blog, Portfolio, PaperMod]
+  author: cc
+  # author: ["Me", "You"] # multiple authors
+  images: ["lily_icon1.png"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+  defaultContentLanguage: "ja"
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "Thinking_Face_Emoji_large.png"
+    favicon16x16: "Thinking_Face_Emoji_large.png"
+    favicon32x32: "Thinking_Face_Emoji_large.png"
+    apple_touch_icon: "Thinking_Face_Emoji_large.png"
+    safari_pinned_tab: "Thinking_Face_Emoji_large.png"
+
+  label:
+    text: "ホーム"
+    # icon: Thinking_Face_Emoji_large.png
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: "CCのホームページ（仮）"
+    subtitle: "This is test page."
+    #imageUrl: "https://twitter.com/UTokyo_yuri"
+    imageUrl: "lily_icon1.png"
+    imageWidth: 200
+    imageHeight: 200
+    imageTitle: my icon
+    # buttons:
+    #     - name: Posts
+    #       url: posts
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/CCutCC"
+    - name: github
+      url: "https://github.com/cnozo"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  editPost:
+    URL: "https://github.com/cnozo/test"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - identifier: posts
+      name: ごあいさつ
+      url: posts
+      weight: 5
+    - identifier: プロフィール
+      name: プロフィール
+      url: fixed/profile
+      weight: 10
+    - name: 作品
+      url: fixed/works
+      weight: 15
+    - name: 検索
+      url: search/
+      weight: 20
+    - identifier: タグ
+      name: タグ
+      url: tags/
+      weight: 25
+    - identifier: アーカイブ
+      name: アーカイブ
+      url: /archives/
+      weight: 30
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+# pygmentsUseClasses: true
+# markup:
+#     highlight:
+#         # anchorLineNos: true
+#         codeFences: true
+#         guessSyntax: true
+#         lineNos: true
+#         style: monokai

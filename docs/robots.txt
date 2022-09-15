@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://cnozo.github.io/test/sitemap.xml
